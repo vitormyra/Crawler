@@ -1,0 +1,27 @@
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\CrawlerDemo.exe.config
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\CrawlerDemo.exe
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\CrawlerDemo.pdb
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\HtmlAgilityPack.dll
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\HtmlAgilityPack.pdb
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\HtmlAgilityPack.xml
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\obj\Debug\CrawlerDemo.csproj.App.config
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\obj\Debug\CrawlerDemo.csprojResolveAssemblyReference.cache
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\obj\Debug\CrawlerDemo.exe
+c:\users\abdullateef\documents\visual studio 2013\Projects\CrawlerDemo\CrawlerDemo\obj\Debug\CrawlerDemo.pdb
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\CrawlerDemo.exe.config
+C:\github_j\JAC.WebCrawling\CrawlerDemo\obj\Debug\CrawlerDemo.exe
+C:\github_j\JAC.WebCrawling\CrawlerDemo\obj\Debug\CrawlerDemo.pdb
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\CrawlerDemo.exe
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\CrawlerDemo.pdb
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\System.Net.Http.Extensions.dll
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\System.Net.Http.Primitives.dll
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\HtmlAgilityPack.pdb
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\HtmlAgilityPack.xml
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\System.Net.Http.Extensions.xml
+C:\github_j\JAC.WebCrawling\CrawlerDemo\bin\Debug\System.Net.Http.Primitives.xml
+C:\github_j\JAC.WebCrawling\CrawlerDemo\obj\Debug\CrawlerDemo.csproj.App.config
+C:\github_j\JAC.WebCrawling\CrawlerDemo\obj\Debug\CrawlerDemo.csprojResolveAssemblyReference.cache

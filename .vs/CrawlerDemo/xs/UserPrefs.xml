@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{A93F8361-1574-4A47-9ACC-380634BB9DDB}|Default">
+  <MonoDevelop.Ide.ItemProperties.CrawlerDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CrawlerDemo/Program.cs">
+    <Files>
+      <File FileName="CrawlerDemo/packages.config" Line="1" Column="39" />
+      <File FileName="CrawlerDemo/Carro.cs" Line="1" Column="1" />
+      <File FileName="CrawlerDemo/App.config" Line="1" Column="1" />
+      <File FileName="CrawlerDemo/Program.cs" Line="5" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CrawlerDemo" expanded="True">
+            <Node name="CrawlerDemo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
