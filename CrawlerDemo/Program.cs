@@ -16,14 +16,14 @@ namespace CrawlerDemo
         {
             startCrawlerasync();
             Console.ReadLine();
-            
+
         }
 
         private static async Task startCrawlerasync()
         {
-           
+
             //the url of the page we want to test
-            var url = "https://dolarhoje.com/bitcoin-sv-hoje/";
+            var url = "https://www.melhorcambio.com/soja-hoje";
             var httpClient = new HttpClient();
             var html = await httpClient.GetStringAsync(url);
             var htmlDocument = new HtmlDocument();
@@ -33,14 +33,14 @@ namespace CrawlerDemo
             var cars = new List<Carro>();
             var divs =
             htmlDocument.DocumentNode.Descendants("div")
-                .Where(node => node.GetAttributeValue("id", "").Equals("cotacao")).ToList();
-                       
-            foreach(var div in divs)
+                .Where(node => node.GetAttributeValue("id", "").Equals("operacao")).ToList();
+
+            foreach (var div in divs)
             {
                 var teste = div.Descendants("input")
-                    .Where(node => node.GetAttributeValue("id", "").Equals("nacional")).ToList();
+                    .Where(node => node.GetAttributeValue("id", "").Equals("comercial")).FirstOrDefault().InnerText;
 
-                string preco = teste[0].OuterHtml.Replace("<input type=\"text\"", "").Replace("id=\"nacional\"", "").Replace("value=\"", "").Replace("\">", "").Trim();
+                //string preco = teste[0].OuterHtml.Replace("<input type=\"text\"", "").Replace("id=\"nacional\"", "").Replace("value=\"", "").Replace("\">", "").Trim();
 
                 //var car = new Carro
                 //{
@@ -52,7 +52,7 @@ namespace CrawlerDemo
                 //};
 
                 //cars.Add(car);              
-             }
+            }
             // Connection string 
             string MyConnection = "DRIVER={MySQL ODBC 3.51 Driver};Server=localhost;Database=crawlerdemo;User Id=root;Password=";
             //string MyConnection = "datasource=localhost;username=root;password=";  
@@ -62,9 +62,9 @@ namespace CrawlerDemo
             try
             {
                 int count = cars.Count;
-                foreach(var item in cars)
+                foreach (var item in cars)
                 {
-                    for(int i = 0; i < count; i++)
+                    for (int i = 0; i < count; i++)
                     {
                         string query = "insert into carinfor(Model,Price,Link,ImageUrl) value(?,?,?,?);";
                         OdbcCommand cmd = new OdbcCommand(query, con);
@@ -79,22 +79,22 @@ namespace CrawlerDemo
                     count = 0;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
 
                 Console.WriteLine(ex.Message);
-            }  
-           
+            }
+
             con.Close();
             Console.WriteLine("Successful....");
             Console.WriteLine("Press Enter to exit the program...");
             ConsoleKeyInfo keyinfor = Console.ReadKey(true);
-            if(keyinfor.Key == ConsoleKey.Enter)
+            if (keyinfor.Key == ConsoleKey.Enter)
             {
                 System.Environment.Exit(0);
             }
 
         }
-       
+
     }
 }
